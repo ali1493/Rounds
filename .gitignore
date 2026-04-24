@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Rounds additions
+.venv/
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.parquet
+.DS_Store
+.streamlit/secrets.toml
